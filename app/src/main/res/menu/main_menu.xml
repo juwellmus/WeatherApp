@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"
+        />
+
+    <item android:title="Convert"
+        android:id="@+id/itemConvert">
+
+     <menu>
+         <item android:title="Celsius to Fahrenheit"
+             android:id="@+id/itemCelsius"
+             />
+            <item android:title="Fahrenheit to Celsius"
+                android:id="@+id/itemFahrenheit"
+                />
+
+        </menu>
+
+    </item>
+    <item android:title="Exit"
+        android:id="@+id/itemExit"
+        />
+
+</menu>
